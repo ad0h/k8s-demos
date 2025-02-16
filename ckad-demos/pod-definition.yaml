@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-podd
+  labels:
+    app: myapp
+    manager: adam
+    type: silly-demo
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+      
